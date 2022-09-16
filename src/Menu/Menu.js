@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 
+
 import './Menu.css'
 
 export function Menu(){
@@ -19,7 +20,9 @@ export function Menu(){
                 <li className="nav-item">
                 <Link className="nav-link" to="/">Features</Link>
                 </li>
-                
+                <li className="nav-item">
+                <Link className="nav-link" to="habitaciones">Habitaciones</Link>
+                </li>
                 
             </ul>
             </div>
