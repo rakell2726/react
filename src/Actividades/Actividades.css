@@ -1,3 +1,14 @@
 .progreso1{
     width:25%;
 }
+
+.progreso2{
+    width:40%;
+}
+.progreso3{
+    width:60%;
+}
+
+.bg{
+    background-color: #4569f8;
+}

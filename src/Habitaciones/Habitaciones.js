@@ -22,8 +22,7 @@ export function Habitaciones() {
     if (estadoCarga){
         return(
             <>
-    
-            <h1>estoy cargando</h1>
+                <h1>estoy cargando</h1>
             </>
         )
     }  
@@ -31,20 +30,33 @@ export function Habitaciones() {
         return(
 
             <div>
-                {
-                    habitaciones.datos.map(function(habitacion){
+                <div className="container-fluid p-5">
+                    <div className="row row-cols-1 row-cols-md-2 g-5">
+                        {
+                            habitaciones.datos.map(function(habitacion){
 
-                        return(
+                                return(
+                                    // <div>
+                                    //     <h1>{habitacion.nombre}</h1>
+                                    //     <img src={habitacion.imagenes[0]}></img>
+                                    // </div>
+                                    <>
+                                        <div className="col-5">
+                                            <div class="card h-100">
+                                                <img src={habitacion.imagenes[0]} class="card-img-top" alt="..."></img>
+                                                <div class="card-body">
+                                                    <h1>{habitacion.nombre}</h1>
+                                                    <p class="card-text">{habitacion.descripcion}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </>
 
-                            <div>
-                                <h1>{habitacion.nombre}</h1>
-                                <img src={habitacion.imagenes[0]}></img>
-                            </div>
-                        
-
-                        )
-                    })
-                }
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
         )
     }

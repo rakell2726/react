@@ -1,3 +1,5 @@
+import './Actividades.css'
+
 export function Actividades() {
 
     return(
@@ -6,21 +8,18 @@ export function Actividades() {
 
                 <div className="row">
 
-                    <div className="col-12 col-md-4">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="col-12 col-md-3 bg-dark mx-2 my-5 text-white">
+                        <p>Areas verdes</p>
+                        <div className="progress mt-2">
+                            <div className="progress-bar progreso1" role="progressbar"></div>
+                        </div>
+                        <p>Restaurante</p>
+                        <div className="progress mt-2">
+                            <div className="progress-bar progreso2" role="progressbar"></div>
+                        </div>
+                        <p>Atencion del personal</p>
+                        <div className="progress mt-2">
+                            <div className="progress-bar progreso3" role="progressbar"></div>
                         </div>
                     </div>
 
@@ -78,7 +77,7 @@ export function Actividades() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </>
     )
     

@@ -1,6 +1,7 @@
 import './Home.css'
 import { Formularioreserva } from '../Formularioreserva/Formularioreserva.js'
 import { Actividades } from '../Actividades/Actividades.js'
+import { Footer } from "../Footer/Footer.js"
 
 export function Home() {
     
@@ -15,7 +16,9 @@ export function Home() {
         <div>
             <Actividades></Actividades>
         </div>
-        
+        <div>
+            <Footer></Footer>
+        </div>
         </>
     )
 }

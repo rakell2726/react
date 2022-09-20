@@ -6,7 +6,7 @@ import './Menu.css'
 export function Menu(){
     return(
         <>
-        <nav className="navbar navbar-expand-lg menu navbar-dark">
+        <nav className="navbar navbar-expand-lg menu navbar-white">
         <div className="container-fluid">
             <Link className="navbar-brand" to="#">Navbar</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

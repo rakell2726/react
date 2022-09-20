@@ -32,7 +32,7 @@ export function Formularioreserva(){
 
             <div className="row">
                 <div className="col-12 col-md-4">
-                    <label className="form-label">Fecha de entrada</label>
+                    <label className="form-label">Número de adultos</label>
                         <div class="input-group mb-3">
                             <span class="input-group-text"><i class="bi bi-calendar-date"></i></span>
                             <select class="form-select" aria-label="Default select example">
@@ -44,7 +44,7 @@ export function Formularioreserva(){
                         </div>
                 </div>
                 <div className="col-12 col-md-4">
-                    <label className="form-label">Fecha de entrada</label>
+                    <label className="form-label">Número de niños</label>
                         <div class="input-group mb-3">
                             <span class="input-group-text"><i class="bi bi-calendar-date"></i></span>
                             <select class="form-select" aria-label="Default select example">
